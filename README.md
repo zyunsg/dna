@@ -4,21 +4,20 @@ The repo is for the project [Project Name]...
 ---------
 ## Project Structure
 ```
-    .
-    ├── bin                  <- where to save .sh files
-    │   ├── env_set              <- Configure working environment 
+    ├── bin                  <- where to save shell files
+    │   ├── env_set              <- set up working environment 
     ├── conf                 <- Configure files for the project, e.g. conf.csv/conf.json/conf.ini
     ├── core                 <- The core functions 
-    │   ├── sqls                 <- Sql scripts 
+    │   ├── sqls                 <- Sql scripts for ETL
     │   ├── src                  <- Source code for data fetching, preprocessing, modeling, postprocessing, validation, etc.
     ├── data                 <- Inputs/Outputs data for analyics/modeling in offline mode. 
-    │   ├── raw                   <- The original/raw input 
-    │   ├── interim               <- Intermediate output that has been transformed
+    │   ├── raw                   <- The original/raw input data
+    │   ├── interim               <- Intermediate output data that has been transformed
     │   ├── processed             <- The final ouput
     │   ├── reports               <- The analytics/modeling reports (excel, html,, pdf, html, figures etc)
-    ├── docs                 <- References for the project, data dictionaries, manuals, etc.      
+    ├── docs                 <- References documents for the project, data dictionaries, manuals, etc.      
     ├── envs                 <- Environment for the project 
-    ├── notebooks            <- Jupyter notebooks for POC and adhoc tasks
+    ├── notebooks            <- Jupyter notebooks for POC and Ad-hoc tasks
     │   ├── adhoc                <- for adhoc analysis 
     │   ├── poc                  <- for poc buildup     
     ├── utils                <- Utility functions, including common & project specific
@@ -29,7 +28,7 @@ The repo is for the project [Project Name]...
     ├── requirements.txt     <- The requirements file for reproducing the working environment --> pip    
     
     
- * Note that the conf/, data/, docs/, envs/ folder will be generated after initial setup and have been added in the .gitignore file.
+ * Note that the conf/, data/, docs/, envs/ folder will be generated after initial setup.
 ```
 ----------
 ## Initial SetUp 
