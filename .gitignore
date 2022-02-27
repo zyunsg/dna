@@ -133,6 +133,7 @@ dmypy.json
 data/
 docs/
 conf/
+visualize/
 
 # DS files
 *.DS_Store
