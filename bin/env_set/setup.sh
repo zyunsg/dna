@@ -5,6 +5,8 @@ mkdir -p data/raw
 mkdir -p data/interim
 mkdir -p data/processed
 mkdir -p data/reports
+
+mkdir visualize
 mkdir conf
 mkdir docs
 
