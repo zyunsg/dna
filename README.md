@@ -4,9 +4,9 @@ The repo is for the project [Project Name]...
 ---------
 ## Project Structure
 ```
-    ├── bin                  <- where to save shell files
-    │   ├── env_set              <- set up working environment 
-    ├── conf                 <- Configure files for the project, e.g. conf.csv/conf.json/conf.ini
+    ├── bin                  <- to store the shell files
+    │   ├── env_set              <- to set up the working environment 
+    ├── conf                 <- to store the configure files for the project, e.g. conf.csv/conf.json/conf.ini
     ├── core                 <- The core functions 
     │   ├── sqls                 <- Sql scripts for ETL
     │   ├── src                  <- Source code for data fetching, preprocessing, modeling, postprocessing, validation, etc.
@@ -21,14 +21,15 @@ The repo is for the project [Project Name]...
     │   ├── adhoc                <- for adhoc analysis 
     │   ├── poc                  <- for poc buildup     
     ├── utils                <- Utility functions, including common & project specific
-    │   ├── utils.py             <- utility functions defined specifically for the project   
+    │   ├── utils.py             <- utility functions defined specifically for the project 
+    ├── visualize            <- to store the visualization files. (Tableau, Power PI)
     ├── .gitignore           <- Files/dir to be ignored during check-in to github
     ├── LICENSE              <- The license file for the project
     ├── README.md            <- The top-level README for DA/DS/DE/ML using this project. 
     ├── requirements.txt     <- The requirements file for reproducing the working environment --> pip    
     
     
- * Note that the conf/, data/, docs/, envs/ folder will be generated after initial setup.
+ * Note that the conf/, data/, docs/, envs/ visualize/ folder will be generated after initial setup.
 ```
 ----------
 ## Initial SetUp 
