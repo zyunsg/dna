@@ -57,6 +57,6 @@ pip install -r requirements.txt
 
 |Name     | Email address           | 
 |---------|-------------------------|
-|[Full Name] (admin)| Full_Name@capgemini.com |
-|[Full Name]        | Full_Name@capgemini.com |
+|[Full Name] (admin)| Full_Name@email.com |
+|[Full Name]        | Full_Name@email.com |
 
